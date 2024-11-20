@@ -11,22 +11,22 @@ The aim of this project is to predict student scores based on the number of hour
   - 📊 Matplotlib, 🌈 Seaborn (Visualization)  
   - 🤖 Scikit-learn (Machine Learning)  
 ## Project Workflow 📋
-1- Data Import & Exploration:
-The dataset is fetched from a URL and loaded into a pandas DataFrame.
-We explore the data and print it to verify its structure.
-2- Data Visualization:
-A 2D scatter plot is generated to visualize the relationship between study hours and scores.
-3- Data Preprocessing:
-Correlation between the features is checked using the .corr() method.
-Data is split into inputs (study hours) and outputs (scores).
-4- Model Training:
-The dataset is split into training and test sets using train_test_split.
-A Linear Regression model is trained using the training data.
-5- Prediction:
-The model predicts scores based on the test data.
-Actual vs. predicted values are compared in a table for evaluation.
-6- Evaluation:
-The model is evaluated using R² and Root Mean Squared Error (RMSE) metrics.
+- Data Import & Exploration:
+The dataset is fetched from a URL and loaded into a pandas DataFrame.  
+We explore the data and print it to verify its structure.  
+- Data Visualization:
+A 2D scatter plot is generated to visualize the relationship between study hours and scores.  
+- Data Preprocessing:
+Correlation between the features is checked using the .corr() method.  
+Data is split into inputs (study hours) and outputs (scores).  
+- Model Training:
+The dataset is split into training and test sets using train_test_split.  
+A Linear Regression model is trained using the training data.  
+- Prediction:
+The model predicts scores based on the test data.  
+Actual vs. predicted values are compared in a table for evaluation.  
+- Evaluation:
+The model is evaluated using R² and Root Mean Squared Error (RMSE) metrics.  
 ## Key Features 🔑:
 - Visualization: A scatter plot to observe the relationship between hours studied and the scores achieved.
 - Prediction: The model predicts scores for students based on their study hours.
